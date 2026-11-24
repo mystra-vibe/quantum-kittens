@@ -58,10 +58,10 @@ The owner merges. Nothing merges by machine.
 
 ## Repos
 
-- Public: comms-deck, quantum-kittens, navigation-control-system, lumo-seat.
-- chronophage (the no-AI watchdog) was picked to go public next. Both of
-  its commits were checked, and they contain no secrets, names or personal
-  paths. It waits for the owner's go-ahead.
+- Public: comms-deck, quantum-kittens, navigation-control-system, lumo-seat, chronophage.
+- chronophage (the no-AI watchdog) went public at the owner's go-ahead.
+  Both of its commits were checked first, and they contain no secrets,
+  names or personal paths.
 - The rest stay private.
 
 ## Still open
@@ -70,7 +70,7 @@ The owner merges. Nothing merges by machine.
 - **Notification ticker:** notification text scrolls across the top bar
   instead of pop-ups (Grok). This is a desktop config change, so it needs
   the owner's yes first.
-- **Hide idle agents from USAGE** while keeping them in ACTIVITY (Vibe, branch `vibe/hide-idle-usage`).
+- **Hide idle agents from USAGE** while keeping them in ACTIVITY (Vibe). Not pushed yet.
 - **Lumo's connectors:** after she was opened from the launcher, check that her connectors are on.
 - **Chronophage timer:** it stays off until #38 (`status --json`, `wake`) is live.
 
