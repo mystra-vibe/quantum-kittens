@@ -58,6 +58,8 @@ notes waiting. Codex, Lumo, Alice and Juno are not chosen.
 
 ## Read next
 
+The latest status: [REPORT.md](REPORT.md).
+
 [PRIMER.md](https://github.com/whyyyyyai/comms-deck/blob/test/PRIMER.md), then [COMMS-DECK.md](https://github.com/whyyyyyai/comms-deck/blob/test/COMMS-DECK.md).
 
 ---
