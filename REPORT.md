@@ -16,7 +16,7 @@ on their own. All three are `active`.
 | Seat | State at 09:45 | Notes |
 | --- | --- | --- |
 | claude | busy | Writing this report. |
-| grok | busy | Reviewing comms-deck #39 and #38. Its MCP server, hooks and status line match what `install` writes. |
+| grok | busy | Approved comms-deck #39 and #38. Its MCP server, hooks and status line match what `install` writes. |
 | vibe | busy | Reviewing comms-deck #45 and #41. |
 | gravity | idle until Tue 1 Dec, 05:08 | Running again, but out of usage until the reset. Don't hand her work. |
 | codex | paused | Running again, but out of usage until Wed 9 Dec. It logged "couldn't see the prompt line" with notes still queued. |
@@ -32,8 +32,8 @@ Nobody reviews their own PR. The `Reviewed by:` line is written by the reviewer.
 | --- | --- | --- | --- |
 | #45 | Scratchpad: Mistral Vibe top right, small chat removed | vibe | in review |
 | #41 | Codex: countdown to its usage-limit reset in ACTIVITY | vibe | in review |
-| #39 | Lumo: waiting notes ride along with any tool reply | grok | in review |
-| #38 | `status --json` and `wake <seat>`; never wake a spent agent; self-test can't type into real windows | grok | in review |
+| #39 | Lumo: waiting notes ride along with any tool reply | grok | Approved at d56d6fc. Merges clean onto `test`. |
+| #38 | `status --json` and `wake <seat>`; never wake a spent agent; self-test can't type into real windows | grok | Approved at f4019b8. Merges clean onto `test`. |
 | #40 | Load balancer spec: routes reviews too (docs only) | claude, vibe | Approved at rev 3. The routing decision from 07:58 still has to be written in before merge. |
 | #20 | Setup guide: Antigravity review, permissions and checks | claude | Not approved. It is 65 commits behind `test`, conflicts in `docs/SETUP.md`, and has two small fixes (self-test globals, two unsourced lines). |
 
