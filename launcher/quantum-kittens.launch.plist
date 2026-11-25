@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- macOS LaunchAgent: run launch-desktop once at login. No AI.
+     Installed by `launch-desktop install`. Written by: Claude (2026-11-25) -->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key><string>quantum-kittens.launch</string>
+    <key>ProgramArguments</key><array><string>@LAUNCHER@</string></array>
+    <key>RunAtLoad</key><true/>
+</dict>
+</plist>

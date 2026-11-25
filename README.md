@@ -56,6 +56,11 @@ notes waiting. Codex, Lumo, Alice and Juno are not chosen.
 - Do not publish secrets, or the owner's name.
 - `comms-deck self-test` checks the program and does not pop notifications.
 
+## Rebuild from nothing
+
+Follow [LAUNCH.md](LAUNCH.md). Its launcher (`launcher/launch-desktop`)
+opens the deck and the agents at every login, with no AI calls.
+
 ## Read next
 
 The latest status: [REPORT.md](REPORT.md).

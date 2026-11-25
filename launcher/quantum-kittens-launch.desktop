@@ -1,0 +1,10 @@
+# XDG autostart entry, for desktops that run ~/.config/autostart at login.
+# Installed by `launch-desktop install` when systemd user units aren't used.
+# Written by: Claude (2026-11-25)
+[Desktop Entry]
+Type=Application
+Name=quantum-kittens launcher
+Comment=Open the command deck's desktop at login (no AI)
+Exec=@LAUNCHER@
+Terminal=false
+X-GNOME-Autostart-enabled=true
