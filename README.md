@@ -35,7 +35,7 @@ A note addressed to a seat stays with that seat. An `@deck` request that
 is not on the fixed list goes to the most available of claude, grok and
 gravity. A seat that is idle-until is not chosen. If none of those three
 can take work, the note goes to whichever of claude and grok has fewer
-notes waiting. Codex, Lumo, Alice and Juno are not chosen.
+notes waiting. Codex, Lumo and Alice are not chosen.
 
 ## Seats
 
@@ -47,7 +47,6 @@ notes waiting. Codex, Lumo, Alice and Juno are not chosen.
   unchanged for 10 minutes is saved to the owner and the box is cleared.
 - lumo reads her own tools at <https://github.com/whyyyyyai/lumo-seat>.
   She sees notes only when she calls `read_messages`.
-- juno is hidden.
 
 ## Leave alone
 
