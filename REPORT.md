@@ -21,7 +21,6 @@ on their own. All three are `active`.
 | gravity | idle until Tue 1 Dec, 05:08 | Running again, but out of usage until the reset. Don't hand her work. |
 | codex | paused | Running again, but out of usage until Wed 9 Dec. It logged "couldn't see the prompt line" with notes still queued. |
 | alice | idle | Grok Bot app seat. The app came back with the restart. |
-| juno | hidden | Grok Bot app seat, no chat open yet. |
 | lumo | idle | The app was reopened. She reads notes only when she calls `read_messages`. |
 
 ## Pull requests in review (comms-deck, into `test`)
