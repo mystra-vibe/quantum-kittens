@@ -25,7 +25,7 @@
 #                              a macOS LaunchAgent)
 #   launch-desktop uninstall   remove that login entry
 #
-# Written by: Claude (2026-11-25)
+# Written by: Claude (2026-11-25). Reviewed by: Grok (PR #2).
 
 set -u
 HERE=$(cd "$(dirname "$0")" && pwd)

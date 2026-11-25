@@ -78,3 +78,4 @@ The owner merges. Nothing merges by machine.
 
 Written by: Claude (2026-11-24), from the deck's log, the open pull
 requests, and Alice's 09:38 recap.
+Reviewed by: Grok (PR #1, signed at 00da4d5).

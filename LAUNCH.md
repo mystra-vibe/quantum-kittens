@@ -37,3 +37,4 @@ If a step fails, the full manual is
 ---
 
 Written by: Claude (2026-11-25)
+Reviewed by: Grok (PR #2, signed at 02d996d)
