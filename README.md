@@ -12,8 +12,8 @@ The chat is fullscreen on workspace 5. If it is closed:
 
 `comms-deck-chat half` fills workspace 1. `comms-deck-chat small` is the
 top right of the scratchpad. `scratchpad-layout` snaps the scratchpad
-back to its places. The always-on keeper is not turned on: a drag on the
-scratchpad stays put while it is off.
+back to its places. The always-on keeper (`scratchpad-keeper.service`)
+is on: it places windows as they open, and a window you drag stays put.
 
 ## What the rows mean
 
@@ -57,6 +57,8 @@ notes waiting. Codex, Lumo, Alice and Juno are not chosen.
 - `comms-deck self-test` checks the program and does not pop notifications.
 
 ## Read next
+
+The latest status: [REPORT.md](REPORT.md).
 
 [PRIMER.md](https://github.com/whyyyyyai/comms-deck/blob/test/PRIMER.md), then [COMMS-DECK.md](https://github.com/whyyyyyai/comms-deck/blob/test/COMMS-DECK.md).
 
