@@ -1,0 +1,17 @@
+# quantum-kittens-launch: run launch-desktop once at each graphical login,
+# so the deck's windows open without anyone asking an agent. No AI.
+# Installed by `launch-desktop install`; @LAUNCHER@ is replaced with the
+# script's path then.
+#
+# Written by: Claude (2026-11-25)
+[Unit]
+Description=quantum-kittens: open the command deck's desktop at login
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+Type=oneshot
+ExecStart=@LAUNCHER@
+
+[Install]
+WantedBy=graphical-session.target

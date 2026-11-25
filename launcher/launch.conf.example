@@ -1,0 +1,30 @@
+# launch.conf: the windows launch-desktop opens at login. No AI is called.
+# Copy to ~/.config/quantum-kittens/launch.conf and edit it there.
+#
+# One window per line:   name   check   command
+#   check    process name to look for; if it is already running in a
+#            terminal (or, for an app, at all) the line is skipped.
+#            "-" means the command itself refuses to open a second copy.
+#   command  runs in a new terminal window. Start it with @ for an app
+#            that opens its own window.
+#
+# Comment out a seat that is paused or out of usage. Opening an agent's
+# window does not start a turn, but notes waiting for it will be pasted in
+# once it is idle.
+#
+# Written by: Claude (2026-11-25)
+
+# The command deck: fullscreen on workspace 5, and half on workspace 1.
+chat-full   -          @comms-deck-chat
+chat-half   -          @comms-deck-chat half
+
+# Terminal seats.
+grok        grok       grok
+claude      claude     claude
+vibe        vibe-rs    vibe
+#gravity    agy        agy
+#codex      codex      codex
+
+# App seats.
+grok-bot    grok-bot   @grok-bot
+#lumo       lumo-desktop  @lumo-desktop
